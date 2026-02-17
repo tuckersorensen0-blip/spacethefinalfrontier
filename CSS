@@ -1,1 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav li {
+    flex: 1;
+}
+
+
+nav a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a:hover:not(.active) {
+    background-color: #555;
+}
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+main {
+    padding: 20px;
+}
